@@ -1,0 +1,237 @@
+body{
+	margin:0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #000000;
+	margin-top: 15px;
+}
+
+A:link    { text-decoration: none; color: #0088E4}
+A:visited { text-decoration: none; color: #0088E4}
+A:hover   { text-decoration: none; color: #006AB0}
+
+h1{
+	font-size: 12pt;
+}
+
+h2 {
+	font-size: 9pt;
+	margin: 0px;
+}
+
+.testo12 { font-size: 12pt; }
+.testo11 { font-size: 11pt; }
+.testo10 { font-size: 10pt; }
+.testo9  { font-size: 9pt; }
+.testo8  { font-size: 8pt; }
+
+
+
+/* Form
+----------------------------------------------------------------------------------------------------*/
+button {
+	font-size: 13px;
+	font-weight: bold;
+	height: 30px;
+	cursor: pointer;
+	text-align: center;
+	background: #F1F1F1 url(../pics/button_bg.png) repeat-x !important;
+	padding: 0px 5px 0x 5px !important;
+	border: 1px solid #00156E !important;
+	border-top: solid 1px #CCCCCC !important;
+	border-left: solid 1px #CCCCCC !important;	
+	border-right: solid 1px #999999 !important;
+	border-bottom: solid 1px #999999 !important;	
+	color: #333333 !important;
+	border-radius: 2px;
+}
+
+
+
+/* Login and registration box
+----------------------------------------------------------------------------------------------------*/
+.access input[type=text], input[type=password], select {
+	font-size: 18px;
+	width: 292px;
+	border: solid 1px #CCCCCC;
+	padding: 4px;
+	border-radius: 2px;
+	color: #333333;
+	background: #FFFFFF url(../pics/input_bg.png) top repeat-x;
+}
+
+.access input.error, select.error {
+	border: 1px solid #ff0000 !important;
+}
+
+.access div {
+	font-size: 8pt;
+	color: #999999;
+}
+
+#access_box_main{ 
+	position: relative;
+	border: solid 1px #87CEEB;
+	padding: 10px;
+	width: 595px;
+	margin: auto;
+	display: block;
+	border-radius: 3px;
+}
+
+#access_box_logo{ 
+	position: relative;
+	padding-right: 10px;
+	padding-top: 30px;
+	width: 240px;
+	margin: auto;
+	float: left;
+	display: table-cell;
+	height: auto;
+	vertical-align: middle;
+}
+
+#access_box_form{ 
+	border-left: solid 1px #E1F3FA;
+	position: relative;
+	width: 290px;
+	padding-left: 20px;
+	display: table;
+	text-align: left;
+	display: table-cell;
+	font-weight: normal;
+}
+
+
+
+
+
+/* Infox Box
+----------------------------------------------------------------------------------------------------*/
+div.error_box {
+	padding: 10px;
+	border: solid 1px #CC0000;
+	background: #FFE8E8;
+	text-align: center;
+	font-size: 9pt;
+	margin-bottom: 10px;
+	border-radius: 3px;
+}
+div.error_box h1 {
+	font-size: 11pt;
+	margin: 5px;
+	padding: 0px;
+}
+
+div.info_box {
+	background: #FFFFE6;
+	border: solid 1px #FFE064;
+	line-height: 17px;
+	font-size: 12px;
+	text-align: center;
+ 	padding: 10px;
+	line-height: 15px;
+	margin-bottom: 10px;
+	border-radius: 3px;
+}
+
+
+/* Varie
+----------------------------------------------------------------------------------------------------*/
+
+div.main_box {
+	margin: 0 auto;
+	background: #FFFFFF;
+	border: solid 1px #87CEEB;
+	padding: 10px;
+	width: 500px;
+	border-radius: 3px;
+}
+
+
+
+div.main_box_bg {
+	background: #FFFFFF url(../pics/gradient_grey.png) repeat-x bottom;
+	border: solid 1px #87CEEB;
+	padding: 10px;
+	border-radius: 3px;
+}
+
+div.content_box {
+	border-top: solid 1px #E2ECF2; 
+	border-bottom: solid 1px #E2ECF2;
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 4px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 11.5px;
+}
+
+
+div.place {
+	float: left;
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	padding: 2px;
+	margin: 2px;
+	text-align: center;
+}
+
+
+
+/* Tab
+----------------------------------------------------------------------------------------------------*/
+.tabOn {
+	border: solid 1px #87CEEB;
+	border-bottom: solid 1px white;
+	background: #F2FBF8 url(../pics/hover-tab-1px.png) top repeat-x;
+	/******************************/	
+	background-color: #FFFFFF;
+	cursor: pointer;
+	color: #777777;
+	white-space: nowrap;
+	width: 150px; 
+	height: 32px;
+	line-height: 32px;
+	float: left;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	font-weight: bold;
+	font-size: 10pt;
+	text-align: center;
+}
+
+
+.tabOut {
+	border:solid 1px #E2ECF2;
+	border-bottom:solid 1px #87CEEB;
+	/******************************/
+	background-color: #FFFFFF;
+	cursor: pointer;
+	color: #777777;
+	white-space: nowrap;
+	width: 150px; 
+	height: 32px;
+	line-height: 32px;
+	float: left;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	font-weight: bold;
+	font-size: 10pt;
+	text-align: center;
+}
+.tabOut a:link    {color: #777777; font-size: 9pt; text-decoration: none;}
+.tabOut a:visited {color: #777777; font-size: 9pt; text-decoration: none;}
+.tabOut a:hover   {color: #666666; font-size: 9pt; text-decoration: none;}
+
+
+.tabLine
+{
+	border-top: solid 1px #FFFFFF;
+	border-bottom: solid 1px #87CEEB;
+	background-color:White;
+	height: 32px;
+	float: left;
+}
